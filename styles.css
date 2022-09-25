@@ -3,6 +3,10 @@ body {
     background-color: hsl(217, 54%, 11%) ;
     font-family: Outfit;
     height: 100vh;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .container {
@@ -11,7 +15,6 @@ body {
     flex-direction: column;
     background-color: hsl(216, 50%, 16%);
     margin-left: 50em;
-    margin-top: 15em;
     padding: 0;
     width: 22em;
     height: 35.5em;
@@ -57,6 +60,7 @@ img:hover {  opacity: 0.5;
     height: 20px;
     padding-right: 0.2em;
     
+    
     }
 
 
@@ -64,6 +68,7 @@ img:hover {  opacity: 0.5;
        display: inline-block;
        align-items: center;
        margin-bottom: 1em;
+       
        
        
    }
@@ -91,3 +96,6 @@ name:hover{
     color: #00FFF8;
     cursor: pointer;
     transition-duration: 0.3s;}
+
+
+    
